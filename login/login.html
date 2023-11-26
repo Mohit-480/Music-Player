@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6436327f8.js" crossorigin="anonymous"></script>
+</head>
+<body background="login.jpg">
+<div id="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <br>
+        <button type="button" onclick="validateLogin()">Login</button>
+        <br><br>
+        Didn't have a account?
+        <b><a href="/login/signup.html">Sign up</a></b>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

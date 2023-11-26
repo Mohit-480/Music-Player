@@ -1,0 +1,64 @@
+body {
+    background-size: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282828; /* Dark background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    flex-direction: column; /* Changed to column layout */
+    width: 80%;
+}
+
+#login-container,
+#signup-container {
+    background-color: #121212; /* Darker background color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    color: #fff; /* White text color */
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1DB954; /* Dark green color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1ed760; /* Darker green color on hover */
+}
+
+.container p {
+    margin-top: 20px;
+    color: #fff; /* White text color */
+    white-space: nowrap; /* Added to prevent line breaks */
+}
