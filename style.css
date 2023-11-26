@@ -1,0 +1,293 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282828; /* Dark background color */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+
+#header {
+    background-color: #121212; /* Darker header color */
+    padding: 20px;
+    text-align: center; /* Centered text in the header */
+    display: flex; /* Added to align items in the header */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    height: 60px; /* Adjust the height of the logo as needed */
+}
+
+#title-search-container {
+    display: flex;
+    align-items: center;
+}
+
+#title-search-container h1 {
+    margin: 0;
+    font-size: 40px; /* Adjusted font size for a cleaner look */
+    color: #1DB954;
+    margin-left: 20px; /* Adjusted margin for better spacing */
+    margin-right: 20px;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 15px;
+    width: 600px; /* Adjusted width for a more compact search box */
+    border: none;
+    border-radius: 5px; /* Added border radius for a softer look */
+}
+
+#search-btn {
+    padding: 15px;
+    background-color: #1DB954; /* Dark green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Added border radius for a softer look */
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #1ed760; /* Darker green color on hover */
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Move navigation links to the right */
+}
+
+#navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#navigation a:hover {
+    border-bottom: 2px solid #1DB954; /* Underline on hover */
+}
+
+#main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#search-list {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#music-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#circle-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#album-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282828; /* Dark background color */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+}
+
+#header {
+    background-color: #121212; /* Darker header color */
+    padding: 20px;
+    text-align: center; /* Centered text in the header */
+    display: flex; /* Added to align items in the header */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    height: 60px; /* Adjust the height of the logo as needed */
+}
+
+#title-search-container {
+    display: flex;
+    align-items: center;
+}
+
+#title-search-container h1 {
+    margin: 0;
+    font-size: 40px; /* Adjusted font size for a cleaner look */
+    color: #1DB954;
+    margin-left: 20px; /* Adjusted margin for better spacing */
+    margin-right: 20px;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 15px;
+    width: 600px; /* Adjusted width for a more compact search box */
+    border: none;
+    border-radius: 5px; /* Added border radius for a softer look */
+}
+
+#search-btn {
+    padding: 15px;
+    background-color: #1DB954; /* Dark green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Added border radius for a softer look */
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #1ed760; /* Darker green color on hover */
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Move navigation links to the right */
+}
+
+#navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#navigation a:hover {
+    border-bottom: 2px solid #1DB954; /* Underline on hover */
+}
+
+#main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#search-list {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#music-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#circle-image-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px; /* Adjusted width for a larger circle */
+    height: 300px; /* Adjusted height for a larger circle */
+    margin: 0 auto;
+}
+
+#album-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#song-details {
+    margin-top: 20px;
+    color: #ecf0f1; /* Light text color */
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.round-btn {
+    border-radius: 50%;
+}
+
+button {
+    background-color: #1DB954; /* Dark green color */
+    color: #fff;
+    padding: 12px 18px; /* Adjusted padding for a more compact button */
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px; /* Added border radius for a softer look */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1ed760; /* Darker green color on hover */
+}
+
+#audio_player {
+    margin-top: 20px;
+}
+#song-details {
+    margin-top: 20px;
+    color: #ecf0f1; /* Light text color */
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.round-btn {
+    border-radius: 50%;
+}
+
+button {
+    background-color: #1DB954; /* Dark green color */
+    color: #fff;
+    padding: 12px 18px; /* Adjusted padding for a more compact button */
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px; /* Added border radius for a softer look */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1ed760; /* Darker green color on hover */
+}
+
+#audio_player {
+    margin-top: 20px;
+}
